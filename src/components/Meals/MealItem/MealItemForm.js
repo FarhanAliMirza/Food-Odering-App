@@ -11,9 +11,8 @@ const MealItemForm = (props) => {
 
     const enteredAmount = amountInputRef.current.value;
     const enteredAmountNumber = +enteredAmount;
-    console.log(enteredAmountNumber);
     if (
-      enteredAmount.trim.length === 0 ||
+      enteredAmount.trim().length === 0 ||
       enteredAmountNumber < 1 ||
       enteredAmountNumber > 5
     ) {
@@ -29,11 +28,11 @@ const MealItemForm = (props) => {
         ref={amountInputRef}
         label="Amount"
         input={{
-          id: "amount" + props.id,
+          id: "amount_" + props.id,
           type: "number",
           min: "1",
           max: "5",
-          step: "i",
+          step: "1",
           defaultValue: "1",
         }}
       />
