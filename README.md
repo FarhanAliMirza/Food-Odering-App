@@ -9,7 +9,7 @@ Welcome to my project! This is a website that lets you know the menu available a
     - UseState
     - UseEffect
     - React Contex
-- FirerBase :
+- FireBase :
     - Realtime Database
 
 Checkout the project here : https://food-odering-app-farhan-ali-mirzas-projects.vercel.app
