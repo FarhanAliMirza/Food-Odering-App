@@ -12,5 +12,5 @@ Welcome to my project! This is a website that lets you know the menu available a
 - FirerBase :
     - Realtime Database
 
-Checkout the project here : https://food-odering-app-ten.vercel.app/
+Checkout the project here : https://food-odering-app-farhan-ali-mirzas-projects.vercel.app
 
